@@ -1,0 +1,113 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0077b6;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar li {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  padding: 50px 20px;
+}
+
+/* Sections */
+.section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.effects-list li {
+  list-style: none;
+  margin: 10px 0;
+  padding: 10px;
+  background: #e0f7fa;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.effects-list li:hover {
+  background: #b2ebf2;
+}
+
+/* Detail Pages */
+.detail-page {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff3cd;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005f87;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+/* Animations */
+.fade {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
